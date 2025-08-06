@@ -1,0 +1,175 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AL-Waleed
+</name>
+</assembly>
+<members>
+<member name="T:AL_Waleed.DatabaseDataSet.daliyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.debtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DeliveredDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DoneDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.inventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.partsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.phonesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.daliyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.debtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DeliveredRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DoneRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.inventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.partsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.phonesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.daliyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.debtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DeliveredRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.DoneRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.inventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.partsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.phonesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.daliyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.debtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.DeliveredTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.DoneTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.inventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.partsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.phonesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AL_Waleed.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AL_Waleed.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AL_Waleed.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(AL_Waleed.DatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:AL_Waleed.DatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
